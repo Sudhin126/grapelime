@@ -1,0 +1,9 @@
+<center>
+    <b><h1>Todo List</h1></b>
+<div cdkDropList class="example-list" (cdkDropListDropped)="drop($event)">
+    <div class="example-box" *ngFor="let movie of movies" cdkDrag>{{movie}}</div>
+  </div>
+
+
+
+</center>
