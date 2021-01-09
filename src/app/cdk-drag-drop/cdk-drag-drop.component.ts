@@ -1,4 +1,4 @@
-import { DragDropModule, moveItemInArray } from '@angular/cdk/drag-drop';
+import { DragDropModule, moveItemInArray,CdkDragDrop } from '@angular/cdk/drag-drop';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
